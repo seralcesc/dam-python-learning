@@ -41,3 +41,62 @@ dam-python-learning/
 ├── 07-poo/
 │
 └── proyectos/
+```
+
+---
+
+## Organización
+
+Cada bloque agrupa ejercicios relacionados con un concepto concreto.
+
+Cuando resulte útil, los ejercicios dispondrán de su propio directorio para facilitar su identificación.
+
+### Ejemplo
+
+```text
+03-bucles/
+│
+├── 01-tabla-multiplicar/
+│   └── main.py
+│
+├── 02-numeros-pares/
+│   └── main.py
+│
+└── 03-validacion-entrada/
+    └── main.py
+```
+
+---
+
+## Entorno de desarrollo
+
+- **Lenguaje:** Python
+- **Editor:** Visual Studio Code
+- **Control de versiones:** Git
+- **Repositorio remoto:** GitHub
+
+---
+
+## Estado
+
+🟢 **En desarrollo**
+
+Este repositorio se actualiza a medida que avanzo en mi formación y realizo nuevos ejercicios, prácticas y proyectos.
+
+---
+
+## Nota
+
+Este repositorio tiene una **finalidad educativa**.
+
+El código refleja diferentes etapas de mi aprendizaje, por lo que algunos ejercicios iniciales pueden utilizar soluciones deliberadamente sencillas que evolucionarán a medida que incorpore nuevos conocimientos.
+
+---
+
+## Autor
+
+**Sergio Alcántara**
+
+Estudiante de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
+
+[GitHub](https://github.com/seralcesc)
