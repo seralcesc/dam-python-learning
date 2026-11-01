@@ -8,7 +8,20 @@ Primeros ejercicios de Python para practicar la sintaxis del lenguaje y consolid
 
 Cada ejercicio es un programa independiente, guardado en un archivo `ejerNN.py` dentro de su bloque. Los enunciados se incluyen como comentarios al principio de los archivos.
 
-Los apuntes y ejemplos de consulta se incorporarán en `apuntes/` conforme se elaboren.
+## Apuntes de consulta
+
+Lee los apuntes en orden la primera vez y utiliza después las tablas y los apartados de errores frecuentes para resolver dudas. Incluyen ejemplos comentados y guías para plantear los ejercicios, sin sustituir la práctica por soluciones completas.
+
+| Orden | Apunte | Ejercicios |
+|---|---|---|
+| 01 | [Fundamentos, variables y entrada/salida](apuntes/01_fundamentos.md) | 01–05 |
+| 02 | [Cadenas de texto](apuntes/02_cadenas.md) | 06–10 |
+| 03 | [Condicionales](apuntes/03_condicionales.md) | 11–15 |
+| 04 | [Bucles while y validación](apuntes/04_while.md) | 16–20 |
+| 05 | [Bucles for y rangos](apuntes/05_for.md) | 21–25 |
+| 06 | [Patrones algorítmicos](apuntes/06_patrones_algoritmicos.md) | 26–30 |
+
+En VS Code puedes abrir cualquier archivo Markdown y pulsar **Ctrl + Shift + V** para leerlo en vista previa. Copia cada ejemplo que quieras probar en un archivo `.py` independiente. Algunos fragmentos ilustran una expresión y necesitan las variables del ejemplo anterior.
 
 ## Índice de bloques
 
