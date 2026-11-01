@@ -30,7 +30,31 @@ p01_fichaje/
 - **Paquete:** carpeta que agrupa los módulos del proyecto y conserva su archivo `__init__.py`, aunque esté vacío.
 - **Módulos:** archivos `.py` que contienen las funciones de cada responsabilidad.
 
-Los apuntes y ejemplos de consulta se incorporarán en `apuntes/` conforme se elaboren. Las carpetas `__pycache__` y los archivos `.pyc` son generados por Python y se excluyen mediante el `.gitignore` general.
+Las carpetas `__pycache__` y los archivos `.pyc` son generados por Python y se excluyen mediante el `.gitignore` general.
+
+## Apuntes de consulta
+
+Los apuntes construyen primero la base de la programación modular y después explican las herramientas utilizadas en los proyectos. Los ejemplos didácticos se prueban aparte; no modifican los ejercicios de la relación.
+
+| Orden | Apunte | Para qué consultarlo |
+|---|---|---|
+| 01 | [Funciones](apuntes/01_funciones.md) | Parámetros, argumentos, valores por defecto, variables locales y return frente a print. |
+| 02 | [Módulos, paquetes y main.py](apuntes/02_modulos_paquetes.md) | Entender la estructura completa mediante un proyecto de demostración. |
+| 03 | [Importaciones](apuntes/03_importaciones.md) | Elegir entre import, from y as y escribir la llamada correspondiente. |
+| 04 | [Biblioteca estándar y documentación](apuntes/04_biblioteca_estandar.md) | Encontrar una herramienta y entender sus argumentos, retorno y requisitos. |
+| 05 | [Fechas, tiempo y aleatoriedad](apuntes/05_fechas_tiempo_azar.md) | datetime, time, calendar y random. |
+| 06 | [Rutas, archivos y ZIP](apuntes/06_rutas_archivos_zip.md) | os, shutil, zipfile, carpeta de trabajo y nombres internos del ZIP. |
+| 07 | [Otras herramientas](apuntes/07_otras_herramientas.md) | math, statistics, fractions, sys y subprocess. |
+
+### Cómo utilizarlos
+
+- Primera lectura: sigue el orden 01–04 para entender cómo se conectan funciones, archivos e importaciones.
+- Mientras resuelves proyectos: consulta las guías 05–07 según la operación que necesites.
+- Si un archivo no se encuentra: empieza por las secciones de rutas y carpeta de trabajo del apunte 06.
+- Si no sabes qué función elegir: consulta la tabla de necesidades del apunte 04.
+- En VS Code: abre un Markdown y pulsa **Ctrl + Shift + V** para leerlo con formato.
+
+Los bloques que muestran varios archivos deben guardarse en los archivos indicados. Algunos ejemplos necesitan una carpeta de datos de prueba; los que crean archivos explican sus nombres y modos de escritura.
 
 ## Índice de proyectos
 
