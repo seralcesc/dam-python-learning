@@ -29,18 +29,18 @@ El repositorio sigue el orden real de los **temas de la asignatura**. Dentro de 
 
 | Tema | Contenidos | Organización |
 |---|---|---|
-| **01 — Introducción a Python** | Variables, tipos de datos, entrada/salida, operadores, cadenas, condicionales, bucles y patrones algorítmicos. | Una relación de 30 ejercicios distribuida en seis bloques. |
-| **02 — Programación modular** | Funciones, parámetros, valores de retorno, importaciones, módulos, paquetes y uso de la biblioteca estándar. | Una relación de 30 proyectos independientes, cada uno con su punto de entrada y su paquete. |
+| [**01 — Introducción a Python**](Tema01_IntroduccionPython/README.md) | Variables, tipos de datos, entrada/salida, operadores, cadenas, condicionales, bucles y patrones algorítmicos. | Una relación de 30 ejercicios distribuida en seis bloques. |
+| [**02 — Programación modular**](Tema02_ProgramacionModular/README.md) | Funciones, parámetros, valores de retorno, importaciones, módulos, paquetes y uso de la biblioteca estándar. | Una relación de 30 proyectos independientes, cada uno con su punto de entrada y su paquete. |
 
-Estas relaciones describen los ejercicios y proyectos propuestos en clase; no implican que todos estén completados o incorporados al repositorio.
+En programación modular están incorporados los 30 proyectos: **01–29 realizados y 30 incompleto**. Los ejercicios introductorios se conservan como material de práctica y se están rehaciendo para afianzar los conceptos.
 
-Los índices detallados y las indicaciones particulares se documentarán en el README de cada tema. Se añadirán nuevos temas conforme avance el curso.
+Los índices, los apuntes y las indicaciones particulares están disponibles en el README de cada tema. Se añadirán nuevos temas conforme avance el curso.
 
 ---
 
 ## Estructura del repositorio
 
-La organización acordada, que se irá completando con los materiales del curso, es la siguiente:
+La estructura actual se organiza de la siguiente manera (el listado de proyectos está abreviado):
 
 ```text
 dam-python-learning/
@@ -60,7 +60,8 @@ dam-python-learning/
     ├── apuntes/
     ├── p01_fichaje/
     ├── p02_otp/
-    └── ...
+    ├── ...
+    └── p30_empaquetador/
 ```
 
 ### Organización de los materiales
@@ -105,7 +106,7 @@ python main.py
 
 Ambos ejemplos parten de la raíz del repositorio. Si tu instalación de Windows utiliza el lanzador `py`, puedes sustituir `python` por `py -3`.
 
-Algunos proyectos utilizan rutas relativas a la carpeta de trabajo o requieren argumentos de consola. Sus instrucciones particulares se detallarán en la documentación del tema.
+Algunos proyectos utilizan rutas relativas a la carpeta de trabajo o requieren argumentos de consola. Sus instrucciones particulares se detallan en la documentación del tema.
 
 ---
 
@@ -126,7 +127,11 @@ El commit registra los cambios en el ordenador; el push los envía al repositori
 
 🟢 **En desarrollo**
 
-El repositorio se actualiza a medida que avanzo en la asignatura, rehago ejercicios para practicar y completo nuevos proyectos.
+- **Tema 01:** ejercicios y apuntes disponibles para practicar y rehacer las soluciones.
+- **Tema 02:** proyectos 01–29 realizados; proyecto 30 incompleto.
+- **Apuntes:** seis guías del Tema 01 y siete del Tema 02, accesibles desde sus respectivos índices.
+
+El repositorio seguirá creciendo con nuevos contenidos y revisiones.
 
 ---
 
