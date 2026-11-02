@@ -58,7 +58,7 @@ Los bloques que muestran varios archivos deben guardarse en los archivos indicad
 
 ## Índice de proyectos
 
-Los enlaces llevan a los proyectos incorporados al repositorio. Su presencia no implica que estén revisados o entregados.
+Los 30 proyectos están incorporados al repositorio: **01–29 realizados; 30 en desarrollo e incompleto**. Este estado describe el avance de las prácticas, no una revisión exhaustiva de sus soluciones ni su entrega.
 
 | Nº | Proyecto | Conceptos practicados |
 |---|---|---|
@@ -88,15 +88,15 @@ Los enlaces llevan a los proyectos incorporados al repositorio. Su presencia no 
 | 24 | [Generador de fichas de empleado](p24_usuarios/) | Formato de fichas y opciones |
 | 25 | [Auditor del sistema operativo](p25_logs/) | Información del sistema y salida por consola |
 | 26 | [Gestor de promociones de temporada](p26_promociones/) | Mes actual y descuentos |
+| 27 | [Torno de control de aforo](p27_aforo/) | Contadores y comprobación de límites |
+| 28 | [Tarificador de envíos express](p28_envios/) | Redondeo superior con math.ceil y tarifas |
+| 29 | [Comprobador de horario comercial](p29_horarios/) | Día de la semana, hora y condiciones de apertura |
+| 30 | [Empaquetador de proyectos en archivo ZIP](p30_empaquetador/) — **Incompleto** | Validación de directorios y empaquetado ZIP |
 
-### Proyectos de la relación pendientes de incorporar
+### Avance de la relación
 
-| Nº | Proyecto |
-|---|---|
-| 27 | Torno de control de aforo |
-| 28 | Tarificador de envíos express |
-| 29 | Comprobador de horario comercial |
-| 30 | Empaquetador de proyectos en archivo ZIP |
+- **Proyectos 01–29:** realizados e incorporados.
+- **Proyecto 30:** incorporado, pero pendiente de completar.
 
 ## Ejecución
 
@@ -136,4 +136,6 @@ Las prácticas utilizan módulos propios y la biblioteca estándar de Python. El
 
 ## Estado del aprendizaje
 
-Tema en curso. Los proyectos se están desarrollando y revisando antes de su presentación. El código conserva las soluciones trabajadas durante esta etapa de aprendizaje y podrá modificarse en commits posteriores.
+La relación está realizada hasta el proyecto 29. El proyecto 30, dedicado al empaquetado en ZIP, permanece incompleto.
+
+Las soluciones podrán revisarse y mejorar en commits posteriores. El estado de realización no implica que las prácticas estén entregadas o que todas sus soluciones hayan sido verificadas.
