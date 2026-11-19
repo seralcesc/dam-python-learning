@@ -18,3 +18,4 @@ def ejecutar_aplicacion():
 
 
 print("hola")
+print("prueba2")
