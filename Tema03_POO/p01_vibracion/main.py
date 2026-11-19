@@ -15,3 +15,6 @@ from iiot.diagnostico.analizador import AnalizadorVibracion
 
 def ejecutar_aplicacion():
     print("=== MONITOR IIOT VIBRACION ISO 10816 ===")
+
+
+print("hola")
