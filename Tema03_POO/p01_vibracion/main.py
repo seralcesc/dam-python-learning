@@ -4,6 +4,7 @@
 # Archivo:     main.py
 # Ejercicio:   Proyecto 1: IIoT Sensor Vibración Motor Industrial
 # Descripción: 2 Paquetes: iiot / diagnostico
+#
 # Capturar lecturas de aceleración en mm/s en motores de alta potencia para
 # determinar el riesgo de desalineación o fallo mecánico.
 # ============================================================

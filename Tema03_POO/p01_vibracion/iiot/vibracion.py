@@ -1,7 +1,7 @@
 class SensorVibracion:
     def __init__(self, id_motor_in: str, vibracion_rms_val: float):
         self.id_motor = id_motor_in
-        self._vibracion_rms = vibracion_rms_val
+        self.vibracion_rms = vibracion_rms_val
 
     @property
     def vibracion_rms(self) -> float:
