@@ -9,13 +9,29 @@
 # ============================================================
 import sys
 
+from diagnostico.analizador import AnalizadorVibracion
 from iiot.vibracion import SensorVibracion
-from iiot.diagnostico.analizador import AnalizadorVibracion
 
 
 def ejecutar_aplicacion():
-    print("=== MONITOR IIOT VIBRACION ISO 10816 ===")
+    print("=== MONITOR IIOT VIBRACIÓN ISO 10816 ===")
+
+    if len(sys.argv) == 3:
+        id_motor = sys.argv[1]
+        vibracion = float(sys.argv[2])
+    else:
+        id_motor = input("Introduce ID del Motor Industrial: ")
+        vibracion = float(input("Introduce lectura de Vibración RMS (mm/s): "))
+
+    sensor = SensorVibracion(id_motor, vibracion)
+    analizador = AnalizadorVibracion()
+    estado = analizador.evaluar_estado(sensor)
+
+    print("-------------------------------------------")
+    print(
+        f"⚙️ [MOTOR {sensor.id_motor}] RMS: {sensor._vibracion_rms} mm/s | Estado Diadnóstico: {estado}"
+    )
 
 
-print("hola")
-print("prueba2")
+if __name__ == "__main__":
+    ejecutar_aplicacion()
