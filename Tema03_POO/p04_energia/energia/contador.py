@@ -13,7 +13,7 @@ class MedidorElectrico:
     @kwh_consumidos.setter
     def kwh_consumidos(self, nuevos_kwh: float) -> None:
         if nuevos_kwh < 0.0:
-            nuevos_kwh = self._kwh_consumidos
+            raise ValueError("Los kwh consumidos deben ser mayores de 0.0")
         self._kwh_consumidos = nuevos_kwh
 
     def calcular_coste_total(self) -> float:

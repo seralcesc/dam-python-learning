@@ -21,18 +21,18 @@ def ejecutar_aplicacion():
         tarifa = float(sys.argv[3])
     else:
         linea_nom = input("Nombre de la línea de producción: ")
-        kwh_consumidos = float(input("Energía consumida registrada (Kwh): "))
-        tarifa = float(input("Precio contractual del Kwh (€): "))
+        kwh_consumidos = float(input("Energía consumida registrada (kwh): "))
+        tarifa = float(input("Precio contractual del kwh (€): "))
 
-        print("-------------------------------------------")
+    print("-------------------------------------------")
 
-        lp1 = MedidorElectrico(linea_nom, 0)
-        consumo = lp1.kwh_consumidos
-        coste = lp1.calcular_coste_total
+    lp1 = MedidorElectrico(linea_nom, kwh_consumidos, tarifa)
+    consumo = lp1.kwh_consumidos
+    coste = lp1.calcular_coste_total()
 
-        print(
-            f"⚡ {lp1.linea_produccion} | Consumo: {consumo} | Coste Energético: {coste}€"
-        )
+    print(
+        f"⚡ {lp1.linea_produccion} | Consumo: {consumo} kwh | Coste Energético: {coste}€"
+    )
 
 
 if __name__ == "__main__":
