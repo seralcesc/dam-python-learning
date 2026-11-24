@@ -17,7 +17,7 @@ from red.seguridad_ot import ValidadorRedOT
 
 def ejecutar_aplicacion():
     print("=== VALIDACIÓN DE AUTOMÁTICAS PLC OT ===")
-    if len(sys.argv) == [3]:
+    if len(sys.argv) == 3:
         id_plc = sys.argv[1]
         ip_control = sys.argv[2]
     else:
@@ -28,7 +28,8 @@ def ejecutar_aplicacion():
     c1 = ControladorPLC(id_plc, ip_control)
     nombre = c1.id_plc
     direccion = c1.ip_control
-    valida = ValidadorRedOT.es_ip_valida(direccion)
+    validador = ValidadorRedOT()
+    valida = validador.es_ip_valida(direccion)
     if valida:
         print(
             f"📟 [AUTOMATIZACIÓN] Controlador {nombre} validado en subred OT."
@@ -37,3 +38,7 @@ def ejecutar_aplicacion():
         print(
             f"📟 [AUTOMATIZACIÓN] Controlador {nombre} no validado en subred OT."
         )
+
+
+if __name__ == "__main__":
+    ejecutar_aplicacion()
