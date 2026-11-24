@@ -31,7 +31,7 @@ def ejecutar_aplicacion():
     coste = lp1.calcular_coste_total()
 
     print(
-        f"⚡ {lp1.linea_produccion} | Consumo: {consumo} kwh | Coste Energético: {coste}€"
+        f"⚡ {lp1.linea_produccion} | Consumo: {consumo} kwh | Coste Energético: {coste:.2f}€"
     )
 
 
